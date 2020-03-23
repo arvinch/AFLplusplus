@@ -5,7 +5,6 @@ sudo: required
 branches:
   only:
     - master
-    - dev
 
 matrix:
   include:
@@ -29,7 +28,6 @@ matrix:
 jobs:
   allow_failures:
     - os: osx
-    - arch: arm64
 
 env:
   - AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1 AFL_NO_UI=1 AFL_STOP_MANUALLY=1

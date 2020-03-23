@@ -4,6 +4,7 @@
 
  - get "no global vars" working
 
+
 ## Further down the road
 
 afl-fuzz:
@@ -11,11 +12,6 @@ afl-fuzz:
    (@andrea: be careful, often people run all slaves)
  - ascii_only mode for mutation output
  - setting min_len/max_len/start_offset/end_offset limits for mutation output
-
-llvm_mode:
- - added context sensitive branch coverage
- - add CT cov and ngram cov to LTO and InsTrim
- - better whitelist solution for LTO
 
 gcc_plugin:
  - laf-intel
